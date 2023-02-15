@@ -1,1 +1,149 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a {
+  transition: all 0.5s ease;
+}
+a:hover {
+  transform: scale(1.1);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background: #F7FAFD;
+}
+
+.notifications-page {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.notifications-page .container {
+  margin-top: 10vh;
+  width: 50%;
+  margin-inline: auto;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
+  border-radius: 15px;
+  padding: 30px;
+  padding-bottom: 10px;
+}
+.notifications-page .container .content .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 31px;
+}
+.notifications-page .container .content .heading .left-side {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.notifications-page .container .content .heading .left-side p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1C202B;
+}
+.notifications-page .container .content .heading .left-side span {
+  display: inline-block;
+  background: #0A327B;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 4px 11px;
+  margin-bottom: 3px;
+}
+.notifications-page .container .content .heading .right-side p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #5E6778;
+}
+.notifications-page .container .content .notifications .notification {
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.notifications-page .container .content .notifications .notification.unread {
+  background: #F7FAFD;
+}
+.notifications-page .container .content .notifications .notification .image {
+  width: 45px;
+}
+.notifications-page .container .content .notifications .notification .info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .detail {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6778;
+  display: flex;
+  gap: 7px;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.name {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1C202B;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6778;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event.special-event {
+  color: #0A327B;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .unread-icon {
+  display: inline-block;
+  margin-top: 3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #F65552;
+}
+.notifications-page .container .content .notifications .notification .info-container .time-info span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #939CAD;
+}/*# sourceMappingURL=style.css.map */

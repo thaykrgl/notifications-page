@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    transition: all 0.5s ease;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #F7FAFD;
+}
+
+.notifications-page {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+    .container {
+        margin-top: 10vh;
+        width: 50%;
+        margin-inline: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
+        border-radius: 15px;
+        padding: 30px;
+        padding-bottom: 10px;
+
+        .content {
+            .heading {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 31px;
+
+                .left-side {
+                    display: flex;
+                    align-items: center;
+                    gap: 11px;
+
+                    p {
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: #1C202B;
+                    }
+
+                    span {
+                        display: inline-block;
+                        background: #0A327B;
+                        border-radius: 6px;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        padding: 4px 11px;
+                        margin-bottom: 3px;
+                    }
+                }
+
+                .right-side {
+                    p {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: right;
+                        color: #5E6778;
+                    }
+                }
+            }
+
+            .notifications {
+                .notification {
+                    padding: 16px 20px;
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    border-radius: 8px;
+                    margin-bottom: 8px;
+
+                    &.unread {
+                        background: #F7FAFD;
+                    }
+
+                    .image {
+                        width: 45px;
+                    }
+
+                    .info-container {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 3px;
+
+                        .detail-info {
+                            display: flex;
+                            gap: 6px;
+                            align-items: center;
+
+                            .detail {
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #5E6778;
+                                display: flex;
+                                gap: 7px;
+
+                                span {
+                                    &.name {
+                                        font-weight: 800;
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                        color: #1C202B;
+                                    }
+
+                                    &.event {
+                                        font-weight: 800;
+                                        font-size: 16px;
+                                        line-height: 20px;
+                                        color: #5E6778;
+
+                                        &.special-event {
+                                            color: #0A327B;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .unread-icon {
+                                display: inline-block;
+                                margin-top: 3px;
+                                width: 8px;
+                                height: 8px;
+                                border-radius: 50%;
+                                background: #F65552;
+                            }
+                        }
+
+                        .time-info {
+                            span {
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #939CAD;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
