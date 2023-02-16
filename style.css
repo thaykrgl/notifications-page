@@ -98,12 +98,26 @@ body {
   background: #F7FAFD;
 }
 .notifications-page .container .content .notifications .notification .image {
-  width: 45px;
+  flex-basis: 7%;
+  align-self: baseline;
 }
 .notifications-page .container .content .notifications .notification .info-container {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  flex-basis: 93%;
+}
+.notifications-page .container .content .notifications .notification .info-container.info-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.notifications-page .container .content .notifications .notification .info-container.info-container-img .notification-image {
+  text-align: right;
+}
+.notifications-page .container .content .notifications .notification .info-container.info-container-img .notification-image img {
+  width: 50%;
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info {
   display: flex;
@@ -115,8 +129,9 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #5E6778;
-  display: flex;
-  gap: 7px;
+}
+.notifications-page .container .content .notifications .notification .info-container .detail-info .detail span {
+  margin-right: 2px;
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.name {
   font-weight: 800;
@@ -146,4 +161,17 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #939CAD;
+}
+.notifications-page .container .content .notifications .notification .info-container .notification-info {
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #DDE7EE;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.notifications-page .container .content .notifications .notification .info-container .notification-info span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6778;
 }/*# sourceMappingURL=style.css.map */

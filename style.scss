@@ -109,13 +109,29 @@ body {
                     }
 
                     .image {
-                        width: 45px;
+                        flex-basis: 7%;
+                        align-self: baseline;
                     }
 
                     .info-container {
                         display: flex;
                         flex-direction: column;
                         gap: 3px;
+                        flex-basis: 93%;
+
+                        &.info-container-img{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex-direction: row;
+
+                            .notification-image{
+                                text-align: right;
+                                img{
+                                    width: 50%;
+                                }
+                            }
+                        }
 
                         .detail-info {
                             display: flex;
@@ -127,10 +143,11 @@ body {
                                 font-size: 16px;
                                 line-height: 20px;
                                 color: #5E6778;
-                                display: flex;
-                                gap: 7px;
+                                // display: flex;
+                                // gap: 7px;
 
                                 span {
+                                    margin-right: 2px;
                                     &.name {
                                         font-weight: 800;
                                         font-size: 16px;
@@ -167,6 +184,21 @@ body {
                                 font-size: 16px;
                                 line-height: 20px;
                                 color: #939CAD;
+                            }
+                        }
+
+                        .notification-info {
+                            padding: 20px;
+                            background: #FFFFFF;
+                            border: 1px solid #DDE7EE;
+                            border-radius: 5px;
+                            margin-top: 10px;
+
+                            span {
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                color: #5E6778;
                             }
                         }
                     }
