@@ -1,6 +1,6 @@
-# Frontend Mentor - Meet Landing Page
+# Frontend Mentor - Notifications Page
 
-This is a solution to the [Meet Landing Page](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR).
+This is a solution to the [Notifications Page](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC).
 
 ## Table of contents
 
@@ -17,25 +17,27 @@ This is a solution to the [Meet Landing Page](https://www.frontendmentor.io/chal
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+- Distinguish between "unread" and "read" notifications
+- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 
 ### Screenshots
 
 #### Desktop View
-<img src="./images/desktop.png" alt="">
+<img src="./images/noticiatons-page-desktop.png" alt="">
 
 #### Tablet View
-<img src="./images/tablet.png" alt="">
+<img src="./images/noticiatons-page-tablet.png" alt="">
 
 #### Mobile View
-<img src="./images/mobile.png" alt="">
+<img src="./images/noticiatons-page-mobile.png" alt="">
 
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/thaykrgl)
-- Live Site URL: [Netlify](https://meet-landing-page-frontend-mentor.netlify.app/)
+- Live Site URL: [Netlify](https://notifications-page-frontend-mentor.netlify.app/)
 
 ## My process
 
@@ -47,6 +49,7 @@ Users should be able to:
 - Media Queries
 - Google Fonts
 - SASS
+- Pure JS
 
 ## Author
 
