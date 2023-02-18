@@ -26,13 +26,13 @@ Users should be able to:
 ### Screenshots
 
 #### Desktop View
-<img src="./images/notificiatons-page-desktop.png" alt="">
+<img src="./images/notifications-page-desktop.png" alt="">
 
 #### Tablet View
-<img src="./images/notificiatons-page-tablet.png" alt="">
+<img src="./images/notifications-page-tablet.png" alt="">
 
 #### Mobile View
-<img src="./images/notificiatons-page-mobile.png" alt="">
+<img src="./images/notifications-page-mobile.png" alt="">
 
 ### Links
 
