@@ -29,10 +29,10 @@ Users should be able to:
 <img src="./images/notifications-page-desktop.png" alt="">
 
 #### Tablet View
-<img src="./images/notifications-page-tablet.png" alt="">
+<img src="./images/notifications-page-tablet.png" alt="" style = "width: 768px; object-fit: cover; ">
 
 #### Mobile View
-<img src="./images/notifications-page-mobile.png" alt="">
+<img src="./images/notifications-page-mobile.png" alt="" style = "width: 375px; object-fit: cover; ">
 
 ### Links
 
