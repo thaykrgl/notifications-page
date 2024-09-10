@@ -32,17 +32,22 @@ img {
 }
 
 body {
-  background: #F7FAFD;
+  background: #f7fafd;
 }
 
 .notifications-page {
   font-family: "Plus Jakarta Sans", sans-serif;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .notifications-page .container {
-  margin-block: 10vh;
+  margin-top: 10vh;
   width: 50%;
   margin-inline: auto;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 20px 60px rgba(73, 97, 168, 0.05);
   border-radius: 15px;
   padding: 30px;
@@ -62,6 +67,7 @@ body {
   .notifications-page .container {
     width: 90%;
     padding: 16px;
+    margin-block: 4vh;
   }
 }
 @media (max-width: 425px) {
@@ -95,7 +101,7 @@ body {
   font-weight: 800;
   font-size: 24px;
   line-height: 30px;
-  color: #1C202B;
+  color: #1c202b;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .heading .left-side p {
@@ -105,13 +111,13 @@ body {
 }
 .notifications-page .container .content .heading .left-side span {
   display: inline-block;
-  background: #0A327B;
+  background: #0a327b;
   border-radius: 6px;
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 4px 11px;
   margin-bottom: 3px;
 }
@@ -121,7 +127,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   text-align: right;
-  color: #5E6778;
+  color: #5e6778;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .heading .right-side a {
@@ -130,7 +136,7 @@ body {
   }
 }
 .notifications-page .container .content .heading .right-side a:hover {
-  color: #0A327B;
+  color: #0a327b;
 }
 .notifications-page .container .content .notifications .notification {
   padding: 16px 20px;
@@ -148,7 +154,7 @@ body {
   }
 }
 .notifications-page .container .content .notifications .notification.unread {
-  background: #F7FAFD;
+  background: #f7fafd;
 }
 .notifications-page .container .content .notifications .notification .image {
   flex-basis: 7%;
@@ -202,7 +208,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #5E6778;
+  color: #5e6778;
   flex-basis: 95%;
 }
 @media (max-width: 576px) {
@@ -219,7 +225,7 @@ body {
   font-weight: 800;
   font-size: 16px;
   line-height: 20px;
-  color: #1C202B;
+  color: #1c202b;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.name {
@@ -228,14 +234,14 @@ body {
   }
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.name:hover {
-  color: #0A327B;
+  color: #0a327b;
   cursor: pointer;
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event {
   font-weight: 800;
   font-size: 16px;
   line-height: 20px;
-  color: #5E6778;
+  color: #5e6778;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event {
@@ -244,11 +250,11 @@ body {
   }
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event:hover {
-  color: #0A327B;
+  color: #0a327b;
   cursor: pointer;
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .detail span.event.special-event {
-  color: #0A327B;
+  color: #0a327b;
 }
 .notifications-page .container .content .notifications .notification .info-container .detail-info .unread-icon {
   display: inline-block;
@@ -256,13 +262,13 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #F65552;
+  background: #f65552;
 }
 .notifications-page .container .content .notifications .notification .info-container .time-info span {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #939CAD;
+  color: #939cad;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .notifications .notification .info-container .time-info span {
@@ -272,8 +278,8 @@ body {
 }
 .notifications-page .container .content .notifications .notification .info-container .notification-info {
   padding: 20px;
-  background: #FFFFFF;
-  border: 1px solid #DDE7EE;
+  background: #ffffff;
+  border: 1px solid #dde7ee;
   border-radius: 5px;
   margin-top: 10px;
 }
@@ -283,14 +289,14 @@ body {
   }
 }
 .notifications-page .container .content .notifications .notification .info-container .notification-info:hover {
-  background: #E5EFFA;
+  background: #e5effa;
   cursor: pointer;
 }
 .notifications-page .container .content .notifications .notification .info-container .notification-info span {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #5E6778;
+  color: #5e6778;
 }
 @media (max-width: 576px) {
   .notifications-page .container .content .notifications .notification .info-container .notification-info span {
